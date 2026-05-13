@@ -1,0 +1,23 @@
+{
+ "aggregate_function_based_on": "base_received_amount",
+ "creation": "2020-07-17 11:25:34.673195",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "document_type": "Payment Entry",
+ "dynamic_filters_json": "[[\"Payment Entry\",\"company\",\"=\",\"frappe.defaults.get_user_default(\\\"Company\\\")\"]]",
+ "filters_json": "[\n [\n  \"Payment Entry\",\n  \"docstatus\",\n  \"=\",\n  \"1\"\n ],\n [\n  \"Payment Entry\",\n  \"posting_date\",\n  \"Timespan\",\n  \"last year\"\n ],\n [\n  \"Payment Entry\",\n  \"payment_type\",\n  \"=\",\n  \"Receive\"\n ]\n]",
+ "function": "Sum",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "label": "Total Incoming Payment",
+ "modified": "2026-05-13 18:43:00.579026",
+ "modified_by": "Administrator",
+ "module": "Accounts",
+ "name": "Total Incoming Payment",
+ "owner": "Administrator",
+ "show_full_number": 0,
+ "show_percentage_stats": 1,
+ "stats_time_interval": "Monthly",
+ "type": "Document Type"
+}

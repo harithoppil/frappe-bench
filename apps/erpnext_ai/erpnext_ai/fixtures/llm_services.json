@@ -1,0 +1,24 @@
+[
+  {
+    "doctype": "LLM Service",
+    "name": "Gemini (Vertex AI)",
+    "service_name": "Gemini (Vertex AI)",
+    "provider": "Google GenAI",
+    "is_default": 1,
+    "enabled": 1,
+    "base_url": "",
+    "enabled_models": "[\"gemini-2.5-pro\", \"gemini-2.5-flash\", \"gemini-2.0-flash\", \"gemini-3-flash-preview\", \"gemini-3.1-pro-preview\"]",
+    "model_options": "{\"default_model\": \"gemini-2.5-flash\", \"temperature\": 0.3, \"max_tokens\": 8192}"
+  },
+  {
+    "doctype": "LLM Service",
+    "name": "Azure OpenAI",
+    "service_name": "Azure OpenAI",
+    "provider": "OpenAI",
+    "is_default": 0,
+    "enabled": 1,
+    "base_url": "https://east-us-neoklis-resource.services.ai.azure.com/openai/v1",
+    "enabled_models": "[\"gpt-5.5\", \"gpt-5.4-pro\"]",
+    "model_options": "{\"default_model\": \"gpt-5.5\", \"temperature\": 0.3, \"max_tokens\": 8192}"
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "actions": [],
+  "autoname": "hash",
+  "creation": "2025-05-05 00:00:00.000000",
+  "doctype": "DocType",
+  "istable": 1,
+  "field_order": [
+    "role",
+    "content",
+    "tool_calls",
+    "tool_call_id",
+    "work_context",
+    "metadata"
+  ],
+  "fields": [
+    {
+      "fieldname": "role",
+      "fieldtype": "Select",
+      "in_list_view": 1,
+      "label": "Role",
+      "options": "user\nassistant\ntool\nsystem",
+      "reqd": 1,
+      "default": "user"
+    },
+    {
+      "fieldname": "content",
+      "fieldtype": "Long Text",
+      "in_list_view": 1,
+      "label": "Content"
+    },
+    {
+      "fieldname": "tool_calls",
+      "fieldtype": "JSON",
+      "label": "Tool Calls",
+      "description": "JSON array of tool calls made by the assistant"
+    },
+    {
+      "fieldname": "tool_call_id",
+      "fieldtype": "Data",
+      "label": "Tool Call ID",
+      "description": "For role=tool: the ID of the tool call this responds to"
+    },
+    {
+      "fieldname": "work_context",
+      "fieldtype": "JSON",
+      "label": "Work Context",
+      "description": "Injected work context (page data, datasource records) at time of message"
+    },
+    {
+      "fieldname": "metadata",
+      "fieldtype": "JSON",
+      "label": "Metadata",
+      "description": "Model name, token count, latency, etc."
+    }
+  ],
+  "links": [],
+  "modified": "2025-05-05 00:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "AI Employee",
+  "name": "AI Message",
+  "owner": "Administrator",
+  "permissions": [],
+  "sort_field": "idx",
+  "sort_order": "ASC",
+  "states": []
+}

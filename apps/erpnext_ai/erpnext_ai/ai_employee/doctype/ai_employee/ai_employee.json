@@ -1,0 +1,197 @@
+{
+  "actions": [],
+  "allow_rename": 1,
+  "autoname": "field:username",
+  "creation": "2025-05-05 00:00:00.000000",
+  "doctype": "DocType",
+  "field_order": [
+    "username",
+    "nickname",
+    "position",
+    "avatar",
+    "category",
+    "enabled",
+    "built_in",
+    "about_tab",
+    "about",
+    "greeting",
+    "default_prompt",
+    "settings_tab",
+    "skill_settings",
+    "model_settings",
+    "data_source_settings",
+    "chat_settings",
+    "knowledge_base_section",
+    "enable_knowledge_base",
+    "knowledge_base_prompt",
+    "knowledge_base"
+  ],
+  "fields": [
+    {
+      "fieldname": "username",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Username",
+      "reqd": 1,
+      "unique": 1
+    },
+    {
+      "fieldname": "nickname",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Nickname",
+      "reqd": 1
+    },
+    {
+      "fieldname": "position",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Position"
+    },
+    {
+      "fieldname": "avatar",
+      "fieldtype": "Data",
+      "label": "Avatar",
+      "description": "Emoji or icon identifier for the AI employee"
+    },
+    {
+      "fieldname": "category",
+      "fieldtype": "Select",
+      "in_list_view": 1,
+      "label": "Category",
+      "options": "Business\nDeveloper\nTechnical",
+      "default": "Business"
+    },
+    {
+      "fieldname": "enabled",
+      "fieldtype": "Check",
+      "in_list_view": 1,
+      "label": "Enabled",
+      "default": 1
+    },
+    {
+      "fieldname": "built_in",
+      "fieldtype": "Check",
+      "label": "Built In",
+      "default": 0,
+      "read_only": 1
+    },
+    {
+      "fieldname": "about_tab",
+      "fieldtype": "Tab Break",
+      "label": "About"
+    },
+    {
+      "fieldname": "about",
+      "fieldtype": "Code",
+      "label": "System Prompt (About)",
+      "description": "The core system prompt that defines the AI employee's personality and capabilities. This is injected into the <ai_employee> tag of the global prompt template.",
+      "options": "Markdown"
+    },
+    {
+      "fieldname": "greeting",
+      "fieldtype": "Small Text",
+      "label": "Greeting Message",
+      "description": "First message shown to user when starting a conversation"
+    },
+    {
+      "fieldname": "default_prompt",
+      "fieldtype": "Small Text",
+      "label": "Default Prompt",
+      "read_only": 1,
+      "description": "Computed: combines about + knowledge_base_prompt + data source context"
+    },
+    {
+      "fieldname": "settings_tab",
+      "fieldtype": "Tab Break",
+      "label": "Settings"
+    },
+    {
+      "fieldname": "skill_settings",
+      "fieldtype": "JSON",
+      "label": "Skill / Tool Settings",
+      "description": "JSON: { \"skills\": [{ \"name\": \"tool_name\", \"autoCall\": true/false }] }. autoCall=false means ASK permission (human-in-the-loop)."
+    },
+    {
+      "fieldname": "model_settings",
+      "fieldtype": "JSON",
+      "label": "Model Settings",
+      "description": "JSON: { \"provider\": \"google-genai\", \"model\": \"gemini-2.5-flash\", \"temperature\": 0.4, \"top_p\": 0.95 }"
+    },
+    {
+      "fieldname": "data_source_settings",
+      "fieldtype": "JSON",
+      "label": "Data Source Settings",
+      "description": "JSON: { \"collections\": [\"Customer\", \"Item\", \"Sales Order\"] }. DocTypes this employee can access — schema injected into system prompt."
+    },
+    {
+      "fieldname": "chat_settings",
+      "fieldtype": "JSON",
+      "label": "Chat Settings",
+      "description": "JSON: { \"max_turns\": 20, \"stream\": true }"
+    },
+    {
+      "fieldname": "knowledge_base_section",
+      "fieldtype": "Section Break",
+      "label": "Knowledge Base (RAG)"
+    },
+    {
+      "fieldname": "enable_knowledge_base",
+      "fieldtype": "Check",
+      "label": "Enable Knowledge Base",
+      "default": 0
+    },
+    {
+      "fieldname": "knowledge_base_prompt",
+      "fieldtype": "Small Text",
+      "label": "Knowledge Base Prompt Template",
+      "description": "Template for injecting retrieved knowledge into the system prompt. Use {context} placeholder."
+    },
+    {
+      "fieldname": "knowledge_base",
+      "fieldtype": "JSON",
+      "label": "Knowledge Base Config",
+      "description": "JSON: { \"top_k\": 5, \"score_threshold\": 0.7, \"knowledge_base_ids\": [] }"
+    }
+  ],
+  "index_web_pages_for_search": 1,
+  "is_tree": 0,
+  "istable": 0,
+  "links": [],
+  "modified": "2025-05-05 00:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "AI Employee",
+  "name": "AI Employee",
+  "naming_rule": "By fieldname",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+    },
+    {
+      "create": 0,
+      "delete": 0,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "All",
+      "share": 1,
+      "write": 0
+    }
+  ],
+  "sort_field": "nickname",
+  "sort_order": "ASC",
+  "states": [],
+  "title_field": "nickname"
+}

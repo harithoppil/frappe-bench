@@ -1,0 +1,100 @@
+{
+  "actions": [],
+  "autoname": "field:service_name",
+  "creation": "2025-05-05 00:00:00.000000",
+  "doctype": "DocType",
+  "field_order": [
+    "service_name",
+    "provider",
+    "is_default",
+    "enabled",
+    "configuration_tab",
+    "api_key",
+    "base_url",
+    "enabled_models",
+    "model_options"
+  ],
+  "fields": [
+    {
+      "fieldname": "service_name",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Service Name",
+      "reqd": 1,
+      "unique": 1
+    },
+    {
+      "fieldname": "provider",
+      "fieldtype": "Select",
+      "in_list_view": 1,
+      "label": "Provider",
+      "options": "google-genai\nopenai\nanthropic\ndeepseek\nollama",
+      "reqd": 1,
+      "default": "google-genai"
+    },
+    {
+      "fieldname": "is_default",
+      "fieldtype": "Check",
+      "in_list_view": 1,
+      "label": "Is Default",
+      "default": 0
+    },
+    {
+      "fieldname": "enabled",
+      "fieldtype": "Check",
+      "in_list_view": 1,
+      "label": "Enabled",
+      "default": 1
+    },
+    {
+      "fieldname": "configuration_tab",
+      "fieldtype": "Tab Break",
+      "label": "Configuration"
+    },
+    {
+      "fieldname": "api_key",
+      "fieldtype": "Password",
+      "label": "API Key",
+      "description": "LLM provider API key. For Ollama, leave empty."
+    },
+    {
+      "fieldname": "base_url",
+      "fieldtype": "Data",
+      "label": "Base URL",
+      "description": "Custom API endpoint URL (for Ollama, proxies, etc.)"
+    },
+    {
+      "fieldname": "enabled_models",
+      "fieldtype": "JSON",
+      "label": "Enabled Models",
+      "description": "JSON: { \"mode\": \"recommended\"|\"custom\", \"models\": [\"gemini-2.5-flash\", ...] }"
+    },
+    {
+      "fieldname": "model_options",
+      "fieldtype": "JSON",
+      "label": "Default Model Options",
+      "description": "JSON: { \"temperature\": 0.4, \"top_p\": 0.95, \"max_tokens\": 8192 }"
+    }
+  ],
+  "index_web_pages_for_search": 1,
+  "links": [],
+  "modified": "2025-05-05 00:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "AI Employee",
+  "name": "LLM Service",
+  "naming_rule": "By fieldname",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "read": 1,
+      "role": "System Manager",
+      "write": 1
+    }
+  ],
+  "sort_field": "service_name",
+  "sort_order": "ASC",
+  "states": [],
+  "title_field": "service_name"
+}

@@ -1,0 +1,150 @@
+# =============================================================================
+# Frappe Bench Root .gitignore
+# Single-repo setup: includes apps/, sites/, config/, etc.
+# =============================================================================
+
+# ---------------------------------------------------------------------------
+# macOS
+# ---------------------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.tox/
+
+# ---------------------------------------------------------------------------
+# Node.js
+# ---------------------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn
+.eslintcache
+.next
+
+# ---------------------------------------------------------------------------
+# Virtual Environment (Bench env)
+# ---------------------------------------------------------------------------
+env/
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ---------------------------------------------------------------------------
+# IDE / Editor
+# ---------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.kdev4/
+*.kdev4
+.helix/
+.spyderproject
+.spyproject
+.ropeproject
+
+# ---------------------------------------------------------------------------
+# Bench Runtime / Generated
+# ---------------------------------------------------------------------------
+logs/
+*.log
+!logs/.gitkeep
+
+config/pids/
+config/*.pid
+config/scheduler_process
+
+# ---------------------------------------------------------------------------
+# Sites — runtime data, logs, uploaded files, search indexes, secrets
+# ---------------------------------------------------------------------------
+sites/__pycache__/
+
+# Symlinks (recreated by bench on setup)
+sites/localhost
+sites/assets/
+
+# Site-specific secrets & runtime config
+sites/*/site_config.json
+
+# Site runtime data
+sites/*/logs/
+sites/*/private/files/
+sites/*/public/files/
+sites/*/indexes/
+sites/*/locks/
+sites/*/touched_tables.json
+
+# ---------------------------------------------------------------------------
+# Apps — build artifacts, dependencies
+# ---------------------------------------------------------------------------
+apps/*/.git/
+apps/*/node_modules/
+apps/*/.DS_Store
+apps/*/__pycache__/
+apps/*/*.egg-info/
+apps/*/dist/
+apps/*/public/dist/
+apps/*/*.pyc
+apps/*/*.py~
+apps/*/*.log
+
+# ---------------------------------------------------------------------------
+# Misc
+# ---------------------------------------------------------------------------
+list.txt
+patches.txt
+
+# ---------------------------------------------------------------------------
+# Environment / Secrets
+# ---------------------------------------------------------------------------
+.env
+.env.local
+
+# ---------------------------------------------------------------------------
+# Cypress / Testing artifacts
+# ---------------------------------------------------------------------------
+cypress/screenshots/
+cypress/videos/
+.cypress-coverage
+
+# ---------------------------------------------------------------------------
+# Git
+# ---------------------------------------------------------------------------
+*.orig
