@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 from frappe.patches.v13_0.encrypt_2fa_secrets import DOCTYPE
 from frappe.patches.v13_0.encrypt_2fa_secrets import PARENT_FOR_DEFAULTS as TWOFACTOR_PARENT

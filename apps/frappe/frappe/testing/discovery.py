@@ -1,3 +1,4 @@
+from __future__ import annotations
 """
 This module provides functionality for discovering and organizing tests in the Frappe framework.
 

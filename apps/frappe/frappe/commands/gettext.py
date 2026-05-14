@@ -1,3 +1,4 @@
+from __future__ import annotations
 import click
 
 from frappe.commands import pass_context

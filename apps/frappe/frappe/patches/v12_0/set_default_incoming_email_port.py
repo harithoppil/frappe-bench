@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 from frappe.email.utils import get_port
 

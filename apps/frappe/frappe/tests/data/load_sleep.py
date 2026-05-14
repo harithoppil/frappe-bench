@@ -1,3 +1,4 @@
+from __future__ import annotations
 # File for testing lazy_import util via test_lazy_import_module
 import time
 

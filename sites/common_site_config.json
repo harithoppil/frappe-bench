@@ -1,7 +1,7 @@
 {
  "background_workers": 1,
  "file_watcher_port": 6787,
- "frappe_user": "harithoppil",
+ "frappe_user": "root",
  "gunicorn_workers": 17,
  "live_reload": true,
  "rebase_on_pull": false,

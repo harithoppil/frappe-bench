@@ -1,3 +1,4 @@
+from __future__ import annotations
 from typing import ClassVar
 
 from bs4 import BeautifulSoup

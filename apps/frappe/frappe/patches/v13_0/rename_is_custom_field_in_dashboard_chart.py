@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 from frappe.model.utils.rename_field import rename_field
 

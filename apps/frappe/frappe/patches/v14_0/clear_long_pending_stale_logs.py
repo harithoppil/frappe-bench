@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 from frappe.core.doctype.log_settings.log_settings import clear_log_table
 from frappe.utils import add_to_date, today

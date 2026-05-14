@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 import frappe.defaults
 from frappe.contacts.report.addresses_and_contacts.addresses_and_contacts import get_data

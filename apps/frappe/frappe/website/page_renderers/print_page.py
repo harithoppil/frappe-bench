@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 from frappe.website.page_renderers.template_page import TemplatePage
 

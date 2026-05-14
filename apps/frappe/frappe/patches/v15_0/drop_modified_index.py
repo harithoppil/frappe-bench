@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 from frappe.database.utils import drop_index_if_exists
 

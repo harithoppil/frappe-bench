@@ -1,3 +1,4 @@
+from __future__ import annotations
 """Utils for deprecating functionality in Framework.
 
 WARNING: This file is internal, instead of depending just copy the code or use deprecation

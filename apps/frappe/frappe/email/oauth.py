@@ -1,3 +1,4 @@
+from __future__ import annotations
 import base64
 from imaplib import IMAP4
 from poplib import POP3

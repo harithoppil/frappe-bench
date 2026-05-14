@@ -1,3 +1,4 @@
+from __future__ import annotations
 # Copyright (c) 2015, Maxwell Morais and contributors
 # License: MIT. See LICENSE
 

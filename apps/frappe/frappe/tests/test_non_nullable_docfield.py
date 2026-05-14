@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 from frappe.core.doctype.doctype.test_doctype import new_doctype
 from frappe.database.schema import DBTable

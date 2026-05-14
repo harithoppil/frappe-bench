@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 from frappe.desk.doctype.workspace.workspace import update_page
 from frappe.utils import strip_html

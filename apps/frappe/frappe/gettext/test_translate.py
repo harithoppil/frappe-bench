@@ -1,3 +1,4 @@
+from __future__ import annotations
 from frappe.gettext.translate import (
 	generate_pot,
 	get_is_gitignored_function_for_app,

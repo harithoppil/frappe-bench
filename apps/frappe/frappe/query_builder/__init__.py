@@ -1,3 +1,4 @@
+from __future__ import annotations
 import pypika.terms
 from pypika import *
 from pypika import Field

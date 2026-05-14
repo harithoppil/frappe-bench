@@ -1,3 +1,4 @@
+from __future__ import annotations
 # Copyright (c) 2020, Frappe Technologies Pvt. Ltd. and Contributors
 # License: MIT. See LICENSE
 from frappe.search.full_text_search import FullTextSearch

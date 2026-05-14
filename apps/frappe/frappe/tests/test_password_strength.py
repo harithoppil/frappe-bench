@@ -1,3 +1,4 @@
+from __future__ import annotations
 import random
 from string import printable
 from time import time

@@ -1,3 +1,4 @@
+from __future__ import annotations
 """
 This file contains multiple primitive tests for avoiding performance regressions.
 

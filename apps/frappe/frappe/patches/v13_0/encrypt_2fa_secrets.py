@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 import frappe.defaults
 from frappe.cache_manager import clear_defaults_cache

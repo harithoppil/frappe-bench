@@ -1,3 +1,4 @@
+from __future__ import annotations
 from frappe.utils.install import auto_generate_icons_and_sidebar
 
 

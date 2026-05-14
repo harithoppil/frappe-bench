@@ -1,5 +1,7 @@
+from __future__ import annotations
 # Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and contributors
 # License: MIT. See LICENSE
+
 
 from os.path import abspath, splitext
 from os.path import exists as path_exists

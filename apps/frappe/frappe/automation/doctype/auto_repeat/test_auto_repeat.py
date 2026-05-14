@@ -1,3 +1,4 @@
+from __future__ import annotations
 # Copyright (c) 2018, Frappe Technologies and Contributors
 # License: MIT. See LICENSE
 from typing import TYPE_CHECKING

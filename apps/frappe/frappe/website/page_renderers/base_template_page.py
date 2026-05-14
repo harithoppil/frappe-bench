@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 from frappe.website.doctype.website_settings.website_settings import get_website_settings
 from frappe.website.page_renderers.base_renderer import BaseRenderer

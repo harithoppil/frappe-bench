@@ -1,3 +1,4 @@
+from __future__ import annotations
 from jinja2.ext import babel_extract
 
 from .utils import extract_messages_from_code

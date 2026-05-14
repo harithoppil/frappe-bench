@@ -1,3 +1,4 @@
+from __future__ import annotations
 import functools
 from unittest.mock import patch
 

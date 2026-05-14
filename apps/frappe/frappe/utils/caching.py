@@ -1,3 +1,4 @@
+from __future__ import annotations
 # Copyright (c) 2022, Frappe Technologies Pvt. Ltd. and Contributors
 # License: MIT. Check LICENSE
 

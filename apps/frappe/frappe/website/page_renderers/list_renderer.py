@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 from frappe.modules import load_doctype_module
 from frappe.website.page_renderers.template_page import TemplatePage

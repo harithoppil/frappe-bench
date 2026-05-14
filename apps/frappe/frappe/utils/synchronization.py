@@ -1,3 +1,4 @@
+from __future__ import annotations
 """Utils for thread/process synchronization."""
 
 import os

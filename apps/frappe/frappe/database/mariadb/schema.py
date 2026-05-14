@@ -1,3 +1,4 @@
+from __future__ import annotations
 from pymysql.constants.ER import DUP_ENTRY
 
 import frappe

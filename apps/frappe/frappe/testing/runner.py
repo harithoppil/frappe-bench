@@ -1,3 +1,4 @@
+from __future__ import annotations
 """
 This module contains the TestRunner class, which is responsible for executing test suites in Frappe.
 

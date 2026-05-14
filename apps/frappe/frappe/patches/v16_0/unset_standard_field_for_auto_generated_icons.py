@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 from frappe.model.sync import check_if_record_exists
 

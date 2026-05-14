@@ -1,3 +1,4 @@
+from __future__ import annotations
 from werkzeug.wrappers import Response
 
 import frappe

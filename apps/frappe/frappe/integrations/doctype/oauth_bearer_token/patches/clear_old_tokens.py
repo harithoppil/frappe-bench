@@ -1,3 +1,4 @@
+from __future__ import annotations
 from contextlib import suppress
 
 from frappe.core.doctype.log_settings.log_settings import clear_log_table

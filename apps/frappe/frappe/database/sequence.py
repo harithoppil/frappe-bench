@@ -1,3 +1,4 @@
+from __future__ import annotations
 from frappe import db, scrub
 
 # NOTE:

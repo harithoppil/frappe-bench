@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 from frappe.website.page_renderers.document_page import DocumentPage
 from frappe.website.router import get_page_info_from_web_form

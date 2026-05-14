@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 from frappe.desk.utils import slug
 

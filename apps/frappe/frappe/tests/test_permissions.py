@@ -1,3 +1,4 @@
+from __future__ import annotations
 # Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
 # License: MIT. See LICENSE
 """Use blog post test to test user permissions logic"""

@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 from frappe.boot import get_user_pages_or_reports
 from frappe.desk.doctype.note.note import _get_unseen_notes, get_unseen_notes, mark_as_seen

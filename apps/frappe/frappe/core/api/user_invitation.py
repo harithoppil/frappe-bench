@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 import frappe.utils
 from frappe import _

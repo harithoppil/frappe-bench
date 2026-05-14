@@ -1,3 +1,4 @@
+from __future__ import annotations
 """
 This module provides a class Identicon that can be used to generate identicons
 from strings.

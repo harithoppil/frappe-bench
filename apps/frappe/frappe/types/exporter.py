@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 """Creates/Updates types in python controller when schema is updated.
 
 Design goal:

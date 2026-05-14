@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 from frappe.model.naming import append_number_if_name_exists
 from frappe.utils.dashboard import get_dashboards_with_link

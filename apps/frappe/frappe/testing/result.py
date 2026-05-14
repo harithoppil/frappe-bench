@@ -1,3 +1,4 @@
+from __future__ import annotations
 """
 This module contains the TestResult class, which extends unittest.TextTestResult
 to provide custom formatting and logging for test results in the Frappe framework.

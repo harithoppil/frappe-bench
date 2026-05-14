@@ -1,3 +1,4 @@
+from __future__ import annotations
 """Basic DB optimizer for Frappe Framework based app.
 
 This is largely based on heuristics and known good practices for indexing.

@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 from frappe import _
 from frappe.core.utils import get_parent_doc

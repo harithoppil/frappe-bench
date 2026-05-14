@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 
 # this is a separate file since it is imported in frappe.model.document

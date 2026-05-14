@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 from frappe.tests import IntegrationTestCase
 from frappe.website.path_resolver import PathResolver

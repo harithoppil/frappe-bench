@@ -1,3 +1,4 @@
+from __future__ import annotations
 """
 This patch just drops some known indexes which aren't being used anymore or never were used.
 """

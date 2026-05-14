@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 from frappe.desk.page.setup_wizard.install_fixtures import update_global_search_doctypes
 

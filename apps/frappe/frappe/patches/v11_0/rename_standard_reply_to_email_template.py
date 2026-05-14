@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 from frappe.model.rename_doc import rename_doc
 
