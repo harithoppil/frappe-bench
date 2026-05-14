@@ -1,3 +1,4 @@
+from __future__ import annotations
 # Settings saved per user basis
 # such as page_limit, filters, last_view
 

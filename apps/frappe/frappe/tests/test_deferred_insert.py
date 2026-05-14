@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 from frappe.deferred_insert import deferred_insert, save_to_db
 from frappe.tests import IntegrationTestCase

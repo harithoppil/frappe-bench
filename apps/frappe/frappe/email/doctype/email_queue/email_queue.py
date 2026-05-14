@@ -1,7 +1,7 @@
+from __future__ import annotations
 # Copyright (c) 2015, Frappe Technologies and contributors
 # License: MIT. See LICENSE
 
-from __future__ import annotations
 
 import json
 import quopri

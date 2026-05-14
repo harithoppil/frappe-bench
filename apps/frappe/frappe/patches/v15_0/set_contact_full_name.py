@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 from frappe.contacts.doctype.contact.contact import get_full_name
 from frappe.utils import update_progress_bar

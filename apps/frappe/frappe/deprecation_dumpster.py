@@ -1,3 +1,4 @@
+from __future__ import annotations
 """
 Welcome to the Deprecation Dumpster: Where Old Code Goes to Party! 🎉🗑️
 

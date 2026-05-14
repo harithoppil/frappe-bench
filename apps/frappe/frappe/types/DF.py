@@ -1,3 +1,4 @@
+from __future__ import annotations
 """This file defines all frappe types."""
 
 from datetime import date, datetime, time

@@ -1,3 +1,4 @@
+from __future__ import annotations
 """Basic telemetry for improving apps.
 
 WARNING: Everything in this file should be treated "internal" and is subjected to change or get

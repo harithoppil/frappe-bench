@@ -1,3 +1,4 @@
+from __future__ import annotations
 import json
 from difflib import unified_diff
 from typing import Any

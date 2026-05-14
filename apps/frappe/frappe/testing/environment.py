@@ -1,3 +1,4 @@
+from __future__ import annotations
 """
 This module handles the setup and teardown of the test environment for Frappe applications.
 

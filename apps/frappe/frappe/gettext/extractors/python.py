@@ -1,3 +1,4 @@
+from __future__ import annotations
 from babel.messages.extract import extract_python
 
 

@@ -1,3 +1,4 @@
+from __future__ import annotations
 """REST API v2
 
 This file defines routes and implementation for REST API.

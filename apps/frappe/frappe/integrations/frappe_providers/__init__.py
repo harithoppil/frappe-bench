@@ -1,3 +1,4 @@
+from __future__ import annotations
 # imports - standard imports
 # imports - module imports
 

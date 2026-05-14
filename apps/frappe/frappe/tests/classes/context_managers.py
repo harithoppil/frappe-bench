@@ -1,3 +1,4 @@
+from __future__ import annotations
 import faulthandler
 import logging
 from collections.abc import Callable

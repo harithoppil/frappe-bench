@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 from frappe.website.utils import build_response
 

@@ -1,3 +1,4 @@
+from __future__ import annotations
 # Copyright (c) 2026, Frappe Technologies and Contributors
 # See license.txt
 

@@ -1,5 +1,7 @@
+from __future__ import annotations
 # Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
 # License: MIT. See LICENSE
+
 
 import base64
 import datetime
@@ -7,7 +9,11 @@ import re
 import time
 from collections.abc import Callable
 from typing import TYPE_CHECKING
-from uuid import UUID, uuid7
+from uuid import UUID
+try:
+    from uuid import uuid7
+except ImportError:
+    from uuid6 import uuid7
 
 import frappe
 from frappe import _

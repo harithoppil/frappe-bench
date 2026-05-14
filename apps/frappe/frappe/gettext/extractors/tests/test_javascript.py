@@ -1,3 +1,4 @@
+from __future__ import annotations
 from frappe.gettext.extractors.javascript import extract_javascript
 from frappe.tests import IntegrationTestCase
 

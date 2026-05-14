@@ -1,3 +1,4 @@
+from __future__ import annotations
 import logging
 
 from .integration_test_case import IntegrationTestCase

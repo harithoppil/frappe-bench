@@ -1,3 +1,4 @@
+from __future__ import annotations
 """
 FrappeClient is a library that helps you connect with other frappe systems
 """

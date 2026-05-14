@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 from frappe.model import no_value_fields, table_fields
 from frappe.utils.caching import http_cache

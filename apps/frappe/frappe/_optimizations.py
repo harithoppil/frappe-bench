@@ -1,3 +1,4 @@
+from __future__ import annotations
 """This file houses all Frappe specific optimizations and hooks that run on startup or during fork.
 
 Warning: This entire file is private as indicated by `_` prefix in filename.

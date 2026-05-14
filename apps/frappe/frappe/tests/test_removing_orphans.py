@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 from frappe.model.sync import remove_orphan_entities
 from frappe.modules.export_file import delete_folder

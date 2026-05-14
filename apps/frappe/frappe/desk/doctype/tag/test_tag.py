@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 from frappe.desk.doctype.tag.tag import add_tag
 from frappe.desk.reportview import get_stats

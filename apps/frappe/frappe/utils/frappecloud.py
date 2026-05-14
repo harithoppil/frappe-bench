@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 
 FRAPPE_CLOUD_DOMAINS = ("frappe.cloud", "erpnext.com", "frappehr.com", "frappe.dev")

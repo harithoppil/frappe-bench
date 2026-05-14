@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 from frappe.desk.doctype.notification_log.notification_log import make_notification_logs
 

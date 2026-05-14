@@ -1,3 +1,4 @@
+from __future__ import annotations
 # update app in `Module Def` and `Workspace`
 
 import frappe

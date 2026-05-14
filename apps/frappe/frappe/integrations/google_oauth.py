@@ -1,3 +1,4 @@
+from __future__ import annotations
 import json
 
 from google.oauth2.credentials import Credentials

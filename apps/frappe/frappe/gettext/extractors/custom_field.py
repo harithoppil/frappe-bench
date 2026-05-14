@@ -1,3 +1,4 @@
+from __future__ import annotations
 import json
 
 from .utils import extract_messages_from_docfield

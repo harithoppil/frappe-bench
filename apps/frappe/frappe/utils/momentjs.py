@@ -1,3 +1,4 @@
+from __future__ import annotations
 # get data for moment.js
 def update(tz, out):
 	ltz = data["links"].get(tz, tz)

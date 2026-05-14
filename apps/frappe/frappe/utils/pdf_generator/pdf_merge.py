@@ -1,3 +1,4 @@
+from __future__ import annotations
 class PDFTransformer:
 	def __init__(self, browser):
 		self.browser = browser

@@ -1,3 +1,4 @@
+from __future__ import annotations
 """
 Modify the Integer 10 Digits Value to BigInt 20 Digit value
 to generate long Naming Series

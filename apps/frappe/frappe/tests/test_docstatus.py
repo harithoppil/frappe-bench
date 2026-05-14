@@ -1,3 +1,4 @@
+from __future__ import annotations
 from frappe.model.docstatus import DocStatus
 from frappe.tests import IntegrationTestCase
 

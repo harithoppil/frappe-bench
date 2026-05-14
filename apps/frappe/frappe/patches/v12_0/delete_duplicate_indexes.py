@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 
 # This patch deletes all the duplicate indexes created for same column

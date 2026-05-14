@@ -1,3 +1,4 @@
+from __future__ import annotations
 import frappe
 from frappe.desk.doctype.notification_settings.notification_settings import (
 	create_notification_settings,

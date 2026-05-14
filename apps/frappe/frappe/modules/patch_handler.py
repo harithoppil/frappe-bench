@@ -1,3 +1,4 @@
+from __future__ import annotations
 # Copyright (c) 2021, Frappe Technologies Pvt. Ltd. and Contributors
 # License: MIT. See LICENSE
 """Patch Handler.
